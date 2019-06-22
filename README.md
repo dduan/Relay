@@ -17,7 +17,7 @@ share.
 
 ### Xcode:
 
-Add package `https://github.com/dduan/Pathos.git`.
+Add package `https://github.com/dduan/Relay.git`.
 
 ### [CocoaPods](http://cocoapods.org/):
 
@@ -30,7 +30,7 @@ pod "CombineRelay"
 ### [Swift Package Manager](https://swift.org/package-manager)
 
 ```swift
-.package(url: "http://github.com/dduan/Pathos", from: "0.1.0")
+.package(url: "http://github.com/dduan/Relay", from: "0.1.0")
 ```
 
 ## License
