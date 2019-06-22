@@ -1,0 +1,5 @@
+os: osx
+language: objective-c
+osx_image: xcode11.0
+script:
+- swift build
