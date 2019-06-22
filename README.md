@@ -13,6 +13,26 @@ subscribers. In large projects this is a source of bugs.
 `Relay`s take away the mutability of the "completion" state, making it safer to
 share.
 
-# License
+## Install
+
+### Xcode:
+
+Add package `https://github.com/dduan/Pathos.git`.
+
+### [CocoaPods](http://cocoapods.org/):
+
+```ruby
+use_frameworks!
+
+pod "CombineRelay"
+```
+
+### [Swift Package Manager](https://swift.org/package-manager)
+
+```swift
+.package(url: "http://github.com/dduan/Pathos", from: "0.1.0")
+```
+
+## License
 
 MIT. See `LICENSE.md`
