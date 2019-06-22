@@ -2,7 +2,7 @@ import Combine
 
 /// A relay that wraps a single value and publishes a new element whenever the value changes.
 @available(OSX 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-final public class CurrentValueRelay<Output, Failure>: Relay where Failure: Error {
+public final class CurrentValueRelay<Output, Failure>: Relay where Failure: Error {
     private let subject: CurrentValueSubject<Output, Failure>
     /// The value wrapped by this relay, published as a new element whenever it changes.
     public var value: Output {
