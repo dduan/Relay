@@ -41,7 +41,7 @@ github "dduan/Relay"
 
 ## Usage
 
-Relay provides some types that each corresponds to a type in Combine:
+Relay provides types that thinly wraps around subject types in Combine:
 
 | Relay             | Combine                 |
 |-                  |-                        |
