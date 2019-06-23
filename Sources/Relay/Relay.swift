@@ -13,3 +13,11 @@ public protocol Relay: AnyObject, Publisher {
     /// - Parameter value: The value to send.
     func send(_ value: Self.Output)
 }
+
+@available(OSX 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+extension Relay where Self.Output == Void {
+    /// Signals subscribers.
+    public func send() {
+        self.send(())
+    }
+}
