@@ -30,7 +30,7 @@ pod "CombineRelay"
 ### [Swift Package Manager](https://swift.org/package-manager)
 
 ```swift
-.package(url: "http://github.com/dduan/Relay", from: "0.1.0")
+.package(url: "http://github.com/dduan/Relay", from: "0.1.1")
 ```
 
 ## License

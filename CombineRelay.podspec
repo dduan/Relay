@@ -1,6 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name                      = "CombineRelay"
-  spec.version                   = "0.1.0"
+  spec.module_name               = "Relay"
+  spec.version                   = "0.1.1"
   spec.summary                   = "Relays for Combine."
   spec.homepage                  = "git@github.com:dduan/Relay.git"
   spec.license                   = { :type => "MIT", :file => "LICENSE.md" }
