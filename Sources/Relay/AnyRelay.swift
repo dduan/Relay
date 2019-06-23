@@ -44,6 +44,8 @@ public final class AnyRelay<Output, Failure>: Relay where Failure: Error {
 @available(OSX 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension Relay {
     /// Converts to an `AnyRelay`, erasing the specific type of this relay.
+    ///
+    /// Use AnyRelay to wrap a relay whose type has details you don’t want to expose to subscribers or other publishers.
     public func eraseToAnyRelay() -> AnyRelay<Self.Output, Self.Failure> {
         AnyRelay(self)
     }

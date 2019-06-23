@@ -48,6 +48,7 @@ Relay provides some types that each corresponds to a type in Combine:
 | Relay             | [Subject][]             |
 | PassthroughRelay  | [PassthroughSubject][]  |
 | CurrentValueRelay | [CurrentValueSubject][] |
+| AnyRelay          | [AnySubject][]          |
 
 Each type has identical interface and behavior to its Combine counterpart. Except it's impossible to send a
 complete signal.
@@ -55,6 +56,7 @@ complete signal.
 [Subject]: https://developer.apple.com/documentation/combine/subject
 [PassthroughSubject]: https://developer.apple.com/documentation/combine/passthroughsubject
 [CurrentValueSubject]: https://developer.apple.com/documentation/combine/currentvaluesubject
+[AnySubject]: https://developer.apple.com/documentation/combine/anysubject
 
 ## License
 
