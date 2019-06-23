@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3765572A22BF0D3400846521 /* AnyRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3765572922BF0D3300846521 /* AnyRelay.swift */; };
 		37F6DECF22BEEDF100952CC5 /* CurrentValueRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F6DECC22BEEDF100952CC5 /* CurrentValueRelay.swift */; };
 		37F6DED022BEEDF100952CC5 /* PassthroughRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F6DECD22BEEDF100952CC5 /* PassthroughRelay.swift */; };
 		37F6DED122BEEDF100952CC5 /* Relay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F6DECE22BEEDF100952CC5 /* Relay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3765572922BF0D3300846521 /* AnyRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyRelay.swift; sourceTree = "<group>"; };
 		37F6DECC22BEEDF100952CC5 /* CurrentValueRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentValueRelay.swift; sourceTree = "<group>"; };
 		37F6DECD22BEEDF100952CC5 /* PassthroughRelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassthroughRelay.swift; sourceTree = "<group>"; };
 		37F6DECE22BEEDF100952CC5 /* Relay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relay.swift; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 		OBJ_10 /* Relay */ = {
 			isa = PBXGroup;
 			children = (
+				3765572922BF0D3300846521 /* AnyRelay.swift */,
 				37F6DECC22BEEDF100952CC5 /* CurrentValueRelay.swift */,
 				37F6DECD22BEEDF100952CC5 /* PassthroughRelay.swift */,
 				37F6DECE22BEEDF100952CC5 /* Relay.swift */,
@@ -139,6 +142,7 @@
 			files = (
 				37F6DED022BEEDF100952CC5 /* PassthroughRelay.swift in Sources */,
 				37F6DED122BEEDF100952CC5 /* Relay.swift in Sources */,
+				3765572A22BF0D3400846521 /* AnyRelay.swift in Sources */,
 				37F6DECF22BEEDF100952CC5 /* CurrentValueRelay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
