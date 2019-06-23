@@ -39,6 +39,23 @@ pod "CombineRelay"
 github "dduan/Relay"
 ```
 
+## Usage
+
+Relay provides some types that each corresponds to a type in Combine:
+
+| Relay             | Combine                 |
+|-                  |-                        |
+| Relay             | [Subject][]             |
+| PassthroughRelay  | [PassthroughSubject][]  |
+| CurrentValueRelay | [CurrentValueSubject][] |
+
+Each type has identical interface and behavior to its Combine counterpart. Except it's impossible to send a
+complete signal.
+
+[Subject]: https://developer.apple.com/documentation/combine/subject
+[PassthroughSubject]: https://developer.apple.com/documentation/combine/passthroughsubject
+[CurrentValueSubject]: https://developer.apple.com/documentation/combine/currentvaluesubject
+
 ## License
 
 MIT. See `LICENSE.md`
