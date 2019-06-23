@@ -7,7 +7,7 @@ signal.
 
 A `Subject`, like a `Publisher`, is stateful. Once the complete signal is sent,
 subscriber will stop receiving values. In practice, this is rarely desirable:
-Anyone with a reference to a subject can terminate the data stream for all
+anyone with a reference to a subject can terminate the data stream for all
 subscribers, and that becomes a source of bugs.
 
 `Relay`s take away the mutability of the "completion" state, making it safer to
