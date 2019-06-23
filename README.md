@@ -19,6 +19,12 @@ share.
 
 Add package `https://github.com/dduan/Relay.git`.
 
+### [Swift Package Manager](https://swift.org/package-manager)
+
+```swift
+.package(url: "http://github.com/dduan/Relay", from: "0.1.1")
+```
+
 ### [CocoaPods](http://cocoapods.org/):
 
 ```ruby
@@ -27,10 +33,10 @@ use_frameworks!
 pod "CombineRelay"
 ```
 
-### [Swift Package Manager](https://swift.org/package-manager)
+### [Carthage](https://github.com/Carthage/Carthage)
 
-```swift
-.package(url: "http://github.com/dduan/Relay", from: "0.1.1")
+```
+github "dduan/Relay"
 ```
 
 ## License
