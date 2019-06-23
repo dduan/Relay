@@ -22,7 +22,7 @@ Add package `https://github.com/dduan/Relay.git`.
 ### [Swift Package Manager](https://swift.org/package-manager)
 
 ```swift
-.package(url: "http://github.com/dduan/Relay", from: "0.1.1")
+.package(url: "http://github.com/dduan/Relay", from: "0.1.2")
 ```
 
 ### [CocoaPods](http://cocoapods.org/):
