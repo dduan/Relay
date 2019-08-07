@@ -48,7 +48,6 @@ Relay provides types that thinly wraps around subject types in Combine:
 | Relay             | [Subject][]             |
 | PassthroughRelay  | [PassthroughSubject][]  |
 | CurrentValueRelay | [CurrentValueSubject][] |
-| AnyRelay          | [AnySubject][]          |
 
 Each type has identical interface and behavior to its Combine counterpart. Except it's impossible to send a
 complete signal.
